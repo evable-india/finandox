@@ -40,3 +40,6 @@ Route::get('/price', 'App\Http\Controllers\GuestController@price')->name('price'
 Route::get('/review', 'App\Http\Controllers\GuestController@review')->name('review');
 Route::get('/tearms', 'App\Http\Controllers\GuestController@tearms')->name('tearms');
 Route::get('/insurance', 'App\Http\Controllers\GuestController@insurance')->name('insurance');
+Route::get('/travel', 'App\Http\Controllers\GuestController@travel')->name('travel');
+Route::get('/utility-bill-payment', 'App\Http\Controllers\GuestController@utility_bill_payment')->name('utility-bill-payment');
+Route::get('/payment-getway', 'App\Http\Controllers\GuestController@payment_getway')->name('payment-getway');

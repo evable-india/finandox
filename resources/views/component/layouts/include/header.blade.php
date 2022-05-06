@@ -71,9 +71,10 @@
                                             <li><a href="{{ route('portofolio')}}">Branchless Banking</a></li>
                                             <li><a href="{{ route('secondportfolio')}}">Digital Services</a></li>
                                             <li><a href="{{ route('insurance')}}">Insurance</a></li>
-                                            <li><a href="{{ route('portofoliodetails')}}">Travel</a></li>
-                                            <li><a href="{{ route('portofoliodetails')}}">Utility Bill Payment</a></li>
-                                            <li><a href="{{ route('portofoliodetails')}}">Payment Getway</a></li>
+                                            <li><a href="{{ route('travel')}}">Travel</a></li>
+                                            <li><a href="{{ route('utility-bill-payment')}}">Utility Bill Payment</a></li>
+                                            <!-- <li><a href="{{ route('portofoliodetails')}}">Payment Getway</a></li> -->
+                                            <li><a href="{{ route('payment-getway')}}">Payment Getway</a></li>
                                             <li><a href="{{ route('portofoliodetails')}}">Partener Service</a></li>
                                         </ul>
                                     </li>

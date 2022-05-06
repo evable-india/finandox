@@ -109,6 +109,15 @@ class GuestController extends Controller
     public function insurance(){
         return view('component.insurance');
     }
+    public function travel(){
+        return view('component.travel');
+    }
+    public function utility_bill_payment(){
+        return view('component.utility-bill-payment');
+    }
+    public function payment_getway(){
+        return view('component.payment-getway');
+    }
     
 }
 
