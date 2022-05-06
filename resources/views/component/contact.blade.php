@@ -28,29 +28,32 @@
                         <div class="info-column col-lg-4">
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-email-6"></span></div>
-                                <h3>Email Address</h3>
+                                <h3>Email Address</h3> <br>
+                                <h4>For queries:</h4> <br>
                                 <ul>
-                                    <li><a href="mailto:info@webmail.com">info@webmail.com</a></li>
-                                    <li><a href="mailto:info@webmail.com">jobs@exampleco.com</a></li>
+                                    <li>customercare@cashand.in</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="info-column col-lg-4">
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-call-1"></span></div>
-                                <h3>Phone Number</h3>
+                                <h3>Customer Care No</h3> <br>
                                 <ul>
-                                    <li><a href="tel:+8976765654654">+897 676 5654 654</a></li>
-                                    <li><a href="tel:+908(097)56476576">+908(097) 564 765 76</a></li>
+                                    <li>+91 768 282 72 56 </li> <br> 
+                                    <li>+91 700 890 61 23 </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="info-column col-lg-4">
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-location"></span></div>
-                                <h3>Office Address</h3>
+                                <h3>REGD. OFFICE</h3>
                                 <ul>
-                                    <li>12/A, Romania City Town Hall <br>New Joursey, UK</li>
+                                    <li>D28, Ahalya Hill Resort <br></li> 
+                                    Near Kiss Campous 10<br>
+                                    Pathargadia, Patia,<br>
+                                    Bhubaneswar - Odisha - 751024
                                 </ul>
                             </div>
                         </div>

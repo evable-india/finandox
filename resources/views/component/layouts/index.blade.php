@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from azim.commonsupport.com/Finandox/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Mar 2022 10:37:14 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Finandox - Business HTML Template</title>
+<title>Cashand - An Iniiative Towards Cashless India</title>
 <!-- Stylesheets -->
 <link href="{{ asset('assets/css/bootstrap.css')}}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
@@ -15,15 +14,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png')}}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('assets/images/favicon.png')}}" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/logo-cashand/favicon.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/logo-cashand/favicon.png')}}" type="image/x-icon">
+<link rel="icon" href="assets/images/logo-cashand/favicon.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
 </head>
 
 <body>
@@ -47,7 +45,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="https://azim.commonsupport.com/Finandox/index.html">
+                <form method="post" action="#">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >

@@ -100,6 +100,15 @@ class GuestController extends Controller
     public function price(){
         return view('component.price');
     }
+    public function review(){
+        return view('component.review');
+    }
+    public function tearms(){
+        return view('component.tearms');
+    }
+    public function insurance(){
+        return view('component.insurance');
+    }
     
 }
 

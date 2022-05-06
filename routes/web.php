@@ -36,3 +36,7 @@ Route::get('/checkout', 'App\Http\Controllers\GuestController@checkout')->name('
 Route::get('/faq', 'App\Http\Controllers\GuestController@faq')->name('faq');
 Route::get('/errorpage', 'App\Http\Controllers\GuestController@errorpage')->name('error_page');
 Route::get('/contact', 'App\Http\Controllers\GuestController@contact')->name('contact');
+Route::get('/price', 'App\Http\Controllers\GuestController@price')->name('price');
+Route::get('/review', 'App\Http\Controllers\GuestController@review')->name('review');
+Route::get('/tearms', 'App\Http\Controllers\GuestController@tearms')->name('tearms');
+Route::get('/insurance', 'App\Http\Controllers\GuestController@insurance')->name('insurance');

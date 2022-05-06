@@ -6,7 +6,7 @@
                     <div class="top-left">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo.png')}}" alt=""></a></div>
+                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/logo-png.png')}}" alt=""></a></div>
                         </div>
                     </div>
 
@@ -26,18 +26,18 @@
                             <div class="single-info">
                                 <div class="icon-box"><i class="flaticon-call-1"></i></div>
                                 <div class="text">Phone Number</div>
-                                <h4><a href="tel:+98787687676">+987 876 876 76</a></h4>
+                                <h4><a href="tel:+98787687676">+91 8093454700, 01,09</a></h4>
                             </div>
                             <div class="single-info">
                                 <div class="icon-box"><i class="flaticon-email-4"></i></div>
                                 <div class="text">Email Address</div>
-                                <h4><a href="mailto:info@webmail.com">info@webmail.com</a></h4>
+                                <h4><a href="#">customercare@cashand.in</a></h4>
                             </div>
                         </div>
                     </div>
     
                     <div class="top-right">
-                        <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Get A Quote</span></a>
+                        <a href="https://mitra.cashand.in" class="theme-btn btn-style-two"><span class="btn-title">Login</span></a>
                     </div>
                 </div>
             </div>
@@ -56,47 +56,30 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="{{ route('home')}}">Home</a>
+                                    <li><a href="{{ route('home')}}">Home</a> </li>
+                                    <li class="dropdown"><a href="{{ route('aboutus')}}">About Us</a>
                                         <ul>
-                                            <li><a href="index-2.html">Home page 01</a></li>
-                                            <li><a href="index-3.html">Home page 02</a></li>
-                                            <li><a href="index-4.html">Home page 03</a></li>
-                                            <li><a href="index-5.html">Home page 04</a></li>
-                                            <li><a href="onepage.html">Onepage Version</a></li>
-                                            <li><a href="rtl-home.html">Home RTL</a></li>
-                                            <li class="dropdown"><a href="index-2.html">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index-2.html">Header Style One</a></li>
-                                                    <li><a href="index-3.html">Header Style Two</a></li>
-                                                    <li><a href="index-4.html">Header Style Three</a></li>
-                                                    <li><a href="index-5.html">Header Style Four</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="{{ route('team')}}">Team</a></li>
+                                            <li><a href="{{ route('faq')}}">Faq</a></li>
+                                            <li><a href="{{ route('price')}}">Pricing</a></li>
+											<li><a href="{{route('review')}}">Reviews</a></li>
+											<li><a href="{{route('tearms')}}">Terms & Conditions</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('aboutus')}}">About Us</a></li>
                                     <li class="dropdown"><a href="{{ route('services')}}">Services</a>
                                         <ul>
-                                            <li><a href="{{ route('services')}}">Services One</a></li>
-                                            <li><a href="{{ route('secondservice')}}">Services Two</a></li>
-											<li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="{{ route('portofolio')}}">Branchless Banking</a></li>
+                                            <li><a href="{{ route('secondportfolio')}}">Digital Services</a></li>
+                                            <li><a href="{{ route('insurance')}}">Insurance</a></li>
+                                            <li><a href="{{ route('portofoliodetails')}}">Travel</a></li>
+                                            <li><a href="{{ route('portofoliodetails')}}">Utility Bill Payment</a></li>
+                                            <li><a href="{{ route('portofoliodetails')}}">Payment Getway</a></li>
+                                            <li><a href="{{ route('portofoliodetails')}}">Partener Service</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{ route('portofolio')}}">Portfolio</a>
-                                        <ul>
-                                            <li><a href="{{ route('portofolio')}}">Portfolio One</a></li>
-                                            <li><a href="{{ route('secondportfolio')}}">Portfolio Two</a></li>
-                                            <li><a href="{{ route('portofoliodetails')}}">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">News</a>
-                                        <ul>
-                                            <li><a href="{{ route('bloggrid')}}">Blog Grid</a></li>
-                                            <li><a href="{{ route('blog_standard')}}">Blog Standard</a></li>
-                                            <li><a href="{{ route('blog_details')}}">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Pages</a>
+                                    <li><a href="#">Partner Program </a></li>
+                                    <li><a href="#">Blog </a></li>
+                                    <!-- <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
                                             <li><a href="{{ route('careers')}}">Careers</a></li>
                                             <li><a href="{{ route('team')}}">Team</a></li>
@@ -105,7 +88,6 @@
                                             <li class="dropdown"><a href="{{ route('shop')}}">Shop</a>
                                                 <ul>
                                                     <li><a href="{{ route('products')}}">Products</a></li>
-                                                    <!-- <li><a href="product-details.html">Product Details</a></li> -->
                                                     <li><a href="{{ route('shppingcart')}}">Shopping Cart</a></li>
                                                     <li><a href="{{ route('checkout')}}">Checkout</a></li>
                                                 </ul>
@@ -113,7 +95,7 @@
                                             <li><a href="{{ route('faq')}}">Faq's</a></li>
                                             <li><a href="{{ route('error_page')}}">404</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     
                                     <li><a href="{{ route('contact')}}">Contact</a></li>
                                 </ul>
@@ -138,7 +120,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-2.html" title=""><img src="{{ asset('assets/images/sticky-logo.png')}}" alt="" title=""></a>
+                    <a href="index-2.html" title=""><img src="{{ asset('assets/images/logo-cashand/sticky-logo.jpg')}}" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">

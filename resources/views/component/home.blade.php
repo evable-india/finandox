@@ -10,7 +10,7 @@
 				<div class="auto-container">
 					<div class="content-box">
                         <h3>Making Your Business Idea</h3>
-						<h2>Finan<span>dox </span></h2>
+						<h2><span>Cashand</span></h2>
 						<div class="text">Our company is one of the world’s leading management <br>consulting firms. Get in touch here asap.</div>
 						<div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
 					</div>
@@ -24,7 +24,7 @@
 				<div class="auto-container">
 					<div class="content-box">
                         <h3>Making Your Business Idea</h3>
-                        <h2>Finan<span>dox </span></h2>
+                        <h2><span>Cashand </span></h2>
                         <div class="text">Our company is one of the world’s leading management <br>consulting firms. Get in touch here asap.</div>
                         <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
                     </div>
@@ -98,14 +98,14 @@
                                 <div class="icon-box">
                                     <div class="icon"><img src="assets/images/icons/icon-1.png" alt=""></div>
                                     <h5>Phone Number</h5>
-                                    <h2>+897 6765 754</h2>
+                                    <h2>+91 000 000 00 00</h2>
                                 </div>
                             </div>
                             <div class="info-column col-md-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src="assets/images/icons/icon-2.png" alt=""></div>
                                     <h5>Email Address</h5>
-                                    <h2>info@webmail.com</h2>
+                                    <h2>customercare@cashand.in</h2>
                                 </div>
                             </div>
                         </div>

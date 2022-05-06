@@ -106,7 +106,7 @@
 		<!-- Footer Bottom -->
 		<div class="auto-container">				
             <div class="footer-bottom">
-            	<div class="copyright">Copyright <a href="#">@EvableIndia</a> - 2022</div>
+            	<div class="copyright">Copyright <a href="#">@EvableIndia</a>  2016 - 2022</div>
 			</div>
 		</div>
 	</footer>
