@@ -36,7 +36,7 @@
     </div>
 
     <!-- Main Header -->
-    @include('component.layouts.include.header')
+    @include('layouts.include.header')
     <!-- End Main Header -->
     
     <!--Search Popup-->
@@ -68,7 +68,7 @@
     </div>
     @yield('content')
 	<!-- Main Footer -->
-   @include('component.layouts.include.footer')
+   @include('layouts.include.footer')
     <!-- End Main Footer -->
 	
 </div>

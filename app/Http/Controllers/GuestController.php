@@ -21,8 +21,8 @@ class GuestController extends Controller
         return view('component.services');
     }
 
-    public function secondservice(){
-        return view('component.second_service');
+    public function partner_service(){
+        return view('component.partner_service');
     }
 
    
@@ -82,7 +82,7 @@ class GuestController extends Controller
     }
 
     public function checkout(){
-        return view('component.checkout');
+        return view('component.online_payments');
     }
 
     public function faq(){
@@ -118,6 +118,75 @@ class GuestController extends Controller
     public function payment_getway(){
         return view('component.payment-getway');
     }
+
+    public function digital_payment(){
+        return view('component.digital_payment');
+    }
+
+    public function banking_service(){
+        return view('component.banking_service');
+    }
+
+    public function send_money(){
+        return view('component.send_money');
+    }
+
+    public function receive_money(){
+        return view('component.receive_money');
+    }
+
+    public function events(){
+        return view('component.events');
+    }
+
+    public function promotions(){
+        return view('component.promotions');
+    }
+
+    public function transition(){
+        return view('component.transition');
+    }
+
+    public function social_media(){
+        return view('component.social_media');
+    }
+
+    public function customer_care()
+    {
+        return view('component.customer_care');
+    }
+
+    public function live_chat()
+    {
+        return view('component.live_chat');
+    }
+
+    public function notification(){
+        return view('component.notification');
+    }
+    public function privacy_policy(){
+        return view('component.privacy_policy');
+    }
+
+    public function term_condition(){
+        return view('component.term_condition');
+    }
+
+    public function branchless_banking(){
+        return view('component.branchless_banking');
+    }
+
+    public function digital_service(){
+        return view('component.digital_service');
+    }
+
+    public function partner_program(){
+        return view('component.partner_program');
+    }
+
+   
+
+    
     
 }
 

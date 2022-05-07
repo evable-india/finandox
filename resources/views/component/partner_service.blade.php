@@ -1,4 +1,4 @@
-@extends('component.layouts.index')
+@extends('layouts.index')
 @section('content')
     <!-- Page Banner Section -->
     <section class="page-banner">
@@ -6,10 +6,10 @@
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
-            <h1>Our Services</h1>
+            <h1>Partner Services</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="index-2.html">Home</a></li>
-                <li class="active">Services</li>
+                <li class="active">Partner Services</li>
             </ul>
         </div>
 

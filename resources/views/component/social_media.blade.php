@@ -8,10 +8,10 @@
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
-            <h1>What We Do</h1>
+            <h1>Social Media</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="{{ route('home')}}">Home</a></li>
-                <li class="active">Services</li>
+                <li class="active">Social Media</li>
             </ul>
         </div>
 

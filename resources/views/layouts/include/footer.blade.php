@@ -1,3 +1,4 @@
+
 <footer class="main-footer">
     	<div class="auto-container">
         	<!--Widgets Section-->
@@ -9,7 +10,7 @@
 						<div class="footer-widget logo-widget">
                         	<div class="widget-content">
                                 <div class="footer-logo">
-                                    <a href="index-2.html"><img class="lazy-image" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{ asset('assets/images/footer-logo.png')}}" alt="" /></a>
+                                    <a href="index-2.html"><img class="lazy-image" src="{{ asset('assets/images/logo-cashand/logo.png')}}" data-src="{{ asset('assets/images/logo-cashand/logo.png')}}" alt="" /></a>
                                 </div>
                                 <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
                                 <ul class="social-links clearfix">
@@ -17,33 +18,57 @@
                                     <li><a href="#"><span class="fab fa-twitter"></span></a></li>
                                     <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
                                     <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                    
                                 </ul>
                             </div>
 						</div>
 					</div>
 					
 					<!--Column-->
-                    <div class="column col-lg-4">
+                    <div class="column col-lg-8">
 						<div class="footer-widget links-widget">
 							<div class="widget-content">
-								<h3>Links</h3>
+								<h3>Our Services</h3>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <ul>
-                                            <li><a href="{{ route('home')}}">Home</a></li>
-                                            <li><a href="{{ route('aboutus')}}">About</a></li>
+                                            <li><a href="{{ route('digital-payment')}}">Digital Payments</a></li>
+                                            <li><a href="{{ route('banking-service')}}">Banking Service</a></li>
                                             <li><a href="{{ route('services')}}">Services</a></li>
-                                            <li><a href="{{ route('portofolio')}}">Portfolio</a></li>
-                                            <li><a href="#">Pricing</a></li>
-                                            <li><a href="{{ route('contact')}}">Contact</a></li>
+                                            <li><a href="{{ route('utility-bill-payment')}}">Utiliy Payment</a></li>
+                                            <li><a href="{{ route('insurance')}}">Insurance</a></li>
+                                            <li><a href="{{ route('travel')}}">Travel</a></li>
+                                            <li><a href="{{ route('partner-service')}}">Partner Service</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
                                         <ul>
-                                            <li><a href="#">News</a></li>
-                                            <li><a href="#">Press Release</a></li>
-                                            <li><a href="#">Case Study</a></li>
-                                            <li><a href="#">Terms</a></li>
+                                            <li><a href="{{ route('send-money')}}">Send Money</a></li>
+                                            <li><a href="{{ route('recieve-money')}}">Receive Money</a></li>
+                                            <li><a href="{{ route('shop')}}">Shopping</a></li>
+                                            <li><a href="{{ route('checkout')}}">Online Payment</a></li>
+                                            <li><a href="#">Pay a friend</a></li>
+                                            <li><a href="#">Pay a Bill</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <ul>
+                                            <li><a href="{{ route('aboutus')}}">About us</a></li>
+                                            <li><a href="{{ route('services')}}">Services</a></li>
+                                            <li><a href="{{ route('events')}}">Events</a></li>
+                                            <li><a href="{{ route('promotions')}}">Promotion</a></li>
+                                            <li><a href="{{ route('transition')}}">Transition</a></li>
+                                            <li><a href="{{ route('social-media')}}">Social Media</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <ul>
+                                            <li><a href="{{ route('customer-care')}}">Customer Care</a></li>
+                                            <li><a href="{{ route('live-chat')}}">Live Chat</a></li>
+                                            <li><a href="{{ route('notification')}}">Notification</a></li>
+                                            <li><a href="{{ route('privacy-policy')}}">Privacy</a></li>
+                                            <li><a href="{{ route('terms-and-conditions')}}">Term & Condition</a></li>
+                                            <li><a href="{{ route('contact')}}">Contact us</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -52,7 +77,7 @@
 					</div>
 					
 					<!--Column-->
-                    <div class="column col-lg-4">
+                    <!-- <div class="column col-lg-4">
 						<div class="footer-widget instagram-widget">
                             <h3>Photo Showcase</h3>
 							<div class="inner-box">
@@ -93,10 +118,10 @@
                                         <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{ asset('assets/images/gallery/gallery-9.jpg')}}" alt="">
                                         <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-9.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
-                                </div><!-- /.gallery-wrapper -->
+                                </div>
                             </div>	
 						</div>
-					</div>
+					</div> -->
 					
 				</div>
                 

@@ -6,7 +6,7 @@
                     <div class="top-left">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/logo-png.png')}}" alt=""></a></div>
+                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/logo.png')}}" alt=""></a></div>
                         </div>
                     </div>
 
@@ -68,17 +68,17 @@
                                     </li>
                                     <li class="dropdown"><a href="{{ route('services')}}">Services</a>
                                         <ul>
-                                            <li><a href="{{ route('portofolio')}}">Branchless Banking</a></li>
-                                            <li><a href="{{ route('secondportfolio')}}">Digital Services</a></li>
+                                            <li><a href="{{ route('branch-banking')}}">Branchless Banking</a></li>
+                                            <li><a href="{{ route('digital-services')}}">Digital Services</a></li>
                                             <li><a href="{{ route('insurance')}}">Insurance</a></li>
                                             <li><a href="{{ route('travel')}}">Travel</a></li>
                                             <li><a href="{{ route('utility-bill-payment')}}">Utility Bill Payment</a></li>
                                             <!-- <li><a href="{{ route('portofoliodetails')}}">Payment Getway</a></li> -->
                                             <li><a href="{{ route('payment-getway')}}">Payment Getway</a></li>
-                                            <li><a href="{{ route('portofoliodetails')}}">Partener Service</a></li>
+                                            <li><a href="{{ route('partner-service')}}">Partener Service</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Partner Program </a></li>
+                                    <li><a href="{{ route('partner-program')}}">Partner Program </a></li>
                                     <li><a href="#">Blog </a></li>
                                     <!-- <li class="dropdown"><a href="#">Pages</a>
                                         <ul>

@@ -1,4 +1,4 @@
-@extends('component.layouts.index')
+@extends('layouts.index')
 @section('content')
 <!-- Banner Section -->
 <section class="banner-section">

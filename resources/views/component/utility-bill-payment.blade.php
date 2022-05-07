@@ -1,6 +1,5 @@
-@extends('component.layouts.index')
+@extends('layouts.index')
 @section('content')
-
   <!-- Page Banner Section -->
   <section class="page-banner">
   <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
