@@ -8,7 +8,7 @@
         <div class="auto-container">
             <h1>Our Privacy</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">Home</a></li>
+                <li><a href="{{ route('home')}}">Home</a></li>
                 <li class="active">Our Privacy</li>
             </ul>
         </div>

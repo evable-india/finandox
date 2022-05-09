@@ -8,7 +8,7 @@
         <div class="auto-container">
             <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index-2.html">Home</a></li>
+                <li><a href="">Home</a></li>
                 <li class="active">Contact</li>
             </ul>
         </div>

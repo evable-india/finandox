@@ -1,0 +1,49 @@
+.banking{
+    
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -56px;
+    color : orangered;
+}
+
+/* .banking:: after{
+    
+    content: "";
+    width: 64px;
+    border-bottom: 5px solid #ffc000;
+    display: block;
+    padding-bottom: 15px;
+} */
+.become{
+    margin-right: 645px;
+    font-size: 20px;
+    color: rgb(212, 21, 21);
+    margin-top: -10px;
+}
+.service_name{
+    color: #0c4696;
+    
+    line-height: 28px;
+    font-family: Cera Pro;
+    font-size: 23px;
+    font-weight: 32px;
+
+}
+
+.section-title-dashed:after {
+    content: "";
+    width: 64px;
+    border-bottom: 5px solid #ffc000;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.section-title-dashed {
+    position: relative;
+    font-family: Cera Pro;
+    font-size: 2.25em;
+    line-height: 40px;
+    font-weight: 700;
+    color: #1c539e;
+}
+

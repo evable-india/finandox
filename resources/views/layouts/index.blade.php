@@ -11,12 +11,14 @@
     <link href="{{ asset('assets/css/responsive.css')}}" rel="stylesheet">
     <!-- Color File -->
     <link href="{{ asset('assets/css/color.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/home_style.css')}}" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
 
     <link rel="icon" href="{{ asset('assets/images/logo-cashand/favicon.png')}}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/images/logo-cashand/favicon.png')}}" type="image/x-icon">
 <link rel="icon" href="assets/images/logo-cashand/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
