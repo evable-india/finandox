@@ -6,7 +6,7 @@
                     <div class="top-left">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/logo.png')}}" alt=""></a></div>
+                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}" alt=""></a></div>
                         </div>
                     </div>
 
