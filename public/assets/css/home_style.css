@@ -53,4 +53,121 @@
     color: orangered;
     margin-top: 34px;
 }
+.partnerss{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+.itis{
+    color: whitesmoke;
+    margin-top: 20px;
+}
 
+.vrline {
+    border-left: 4px solid #fc4a1a;
+    line-height: 133%;
+    padding-left: 2%;
+}
+
+
+.vrlines {
+    border-left: 4px solid white;
+    line-height: 123%;
+    padding-left: 2%;
+}
+
+.txs{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 34px;
+    color: orangered;
+}
+
+.distri{
+    
+    color: black;
+    font-family: Cera Pro;
+    font-size: 1.125em;
+    line-height: 26px;
+}
+.distributors{
+    margin-top: 12px;
+    font-size: 1.625em;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.set-up{
+    font-size: 1.25em;
+    line-height: 28px;
+    font-family: Cera Pro;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+/* testing purpose  */
+.my-testing-dashed {
+    position: relative;
+    font-size: 2.15em;
+    line-height: 40px;
+    font-weight: 700;
+    color: #1c539e;
+}
+
+.my-testing-dashed:after {
+    content: "";
+    width: 64px;
+    border-bottom: 5px solid orangered;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.advantage{
+    font-size: 2.25em;
+    line-height: 28px;
+    font-family: Cera Pro;
+    margin-left: 324px;
+    margin-top: 23px;
+    font-weight: 700;
+    color: orangered;
+}
+
+.customer{
+    font-size: 23px;
+    color: #0c4696;
+    font-family: Cera Pro;
+    font-weight: 700;
+}
+.cuso{
+    margin-left: 52px;
+}
+.play-button{
+    margin-top: -245px;
+    margin-left: 234px;
+
+}
+.card4 {
+    box-shadow: 0 2px 30px rgb(0 0 0 / 8%);
+    border-radius: 0;
+    padding: 22px 20px;
+    background: #fff;
+    margin-top: 56px;
+    width: 75%;
+    float: left;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid #D07610;
+    min-height: 180px;
+    transition: 2s ease;
+    margin-bottom: 10%;
+}
+
+.section-title {
+    margin-bottom: 38px;
+    margin-top: 22px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: orangered;
+    
+}

@@ -19,7 +19,7 @@
 <section class="careers-section" style="background-color: #FEFDF6;">
     <div class="auto-container">
         <div class="row">
-            <h3 class="banking">Banking Services</h3><br><br>
+            <h3 class="banking my-testing-dashed">Banking Services</h3><br><br>
             <h3 class="become">Become the most trusted Banker of your area</h3>
             <p class="text-justify">No working capital required. Offer uninterrupted banking services like cash withdrawal, money transfer, cash deposits, savings, insurance and loan from your shop. PayNearby is a PCI DSS and ISO 27001 certified company, which means transacting on the platform is very secure and has a time tested success ratio of more than 99.9%
             </p>
@@ -29,59 +29,87 @@
                         <img src="{{ asset('assets/images/service-images/banking-services.PNG')}}" alt="">
                     </div>
                     <div class="col-sm-12 col-lg-6 col-md-12">
-                        <img src="{{ asset('assets/images/service-images/aeps-logo.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">AePS</span> <p>Help customers withdraw DBT, government relief funds and cash from their bank accounts using fingerprint with Aadhaar enabled Payment Services (AePS)
+                        <img src="{{ asset('assets/images/service-images/aeps-logo.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">AePS</span>
+                        <p class="mt-1">Help customers withdraw DBT, government relief funds and cash from their bank accounts using fingerprint with Aadhaar enabled Payment Services (AePS)
                         </p>
-
                         <img src="{{ asset('assets/images/service-images/micro-atm.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Micro ATM</span>
-                        <p>Provide cash withdrawal services using debit cards of over 1000+ banks
-
+                        <p class="mt-2">Provide cash withdrawal services using debit cards of over 1000+ banks
                         </p>
-
                         <img src="{{ asset('assets/images/service-images/digi-transger.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Digi Smart Transfer</span>
-                        <p>An industry first initiative that enables cash withdrawal and money transfer in one go and allows retailers to run a banking business without any wallet balance
-
+                        <p class="mt-1">An industry first initiative that enables cash withdrawal and money transfer in one go and allows retailers to run a banking business without any wallet balance
                         </p>
-
-
                         <img src="{{ asset('assets/images/service-images/money-transfer.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Money Transfer</span>
-                        <p>Take advantage of our time tested platform with 99.9% success rate to help customers send money from anywhere to anywhere within India, real time, 24*7. Customers use this service also to deposit cash into their accounts
+                        <p class="mt-1">Take advantage of our time tested platform with 99.9% success rate to help customers send money from anywhere to anywhere within India, real time, 24*7. Customers use this service also to deposit cash into their accounts
 
                         </p>
                         <img src="{{ asset('assets/images/service-images/bachat-khata.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Bachat Khata</span>
 
-                        <p>Bring banks nearby and help customers save securely for their dreams with Bachat Khata
+                        <p class="mt-1">Bring banks nearby and help customers save securely for their dreams with Bachat Khata
 
 
                         </p>
                         <img src="{{ asset('assets/images/service-images/digital-gold.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Digital Gold</span>
 
-                        <p>For daughter's marriage, festival or for savings, help your customers buy digital gold in the quantities they can afford, as low as Rs. 500 per transaction
+                        <p class="mt-1">For daughter's marriage, festival or for savings, help your customers buy digital gold in the quantities they can afford, as low as Rs. 500 per transaction
 
 
                         </p>
                         <img src="{{ asset('assets/images/service-images/gold-loan.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Gold Loan</span>
 
-                        <p>Customers can avail loans against their gold jewellery from any PayNearby store. The minimum loan amount is as low as Rs. 10,000 and come at very affordable interest rates
-
-
+                        <p class="mt-1">Customers can avail loans against their gold jewellery from any PayNearby store. The minimum loan amount is as low as Rs. 10,000 and come at very affordable interest rates.
                         </p>
-
-
-
-
-
-
                     </div>
                 </div>
 
             </div>
+            <div class="">
+                <h3 class="my-testing-dashed">Digital Suite</h3>
+                <h4 style="font-weight: bold;" class="mt-3">Upgrade your business with PayNearby digital solutions</h4>
+                <p class="mt-3">This service is free for all our partner retailers. PayNearby Digital Suite helps you scale your business by adopting the right digital tools, from multiple digital payment options to digitized customer ledger to manage payments, reconcilliation and customer credits better</p>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-4">
+                            <i class="fad fa-book-reader mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">Customer Khata</span>
+                        <p class="cuso">Upgrade your business with 100% better customer credit management. A digital ledger that maintains record of all transactions, sets automatic payment reminders and helps you collect payments through integrated digital payment solutions</p>
+                            </div>
+                            <div class="col-lg-4">
+                            <i class="fas fa-qrcode mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">UPI QR</span>
+                        <p class="cuso">A single QR Code that helps you accept payment from any payment app. Make it your mobile screen saver or print and dispaly on the shop to enable seamless digital payments</p>
+                            </div>
+                            <div class="col-lg-4">
+                            <i class="fas fa-comment-alt-check mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">SMS Payment</span>
+                        <p class="cuso">Collect digital payment by sending SMS with payment link to your customers. Receive quick settlement in your PayNearby wallet</p>
+                            </div>
+                            <div class="col-lg-4">
+                            <i class="fad fa-book-reader mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">Aadhaar Pay</span>
+                        <p class="cuso">Accept payments from customers using Aadhar biometric.</p>
+                            </div>
+                            <div class="col-lg-4">
+                            <i class="fad fa-hand-holding-box mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">Cashand Shopping Card</span>
+                        <p class="cuso">Make all your wishes come true with PayNearby Shopping Card. Pay securely and earn attractive cashback when you use your card on ecommerce, railways, mutual funds, telecom, and more.</p>
+                            </div>
+                            <div class="col-lg-4">
+                            <i class="fab fa-cc-visa mt-4" style="font-size: 28px; color: orange;"></i><span class="customer ml-4">Cashand Visa Card</span>
+                        <p class="cuso">Visa Credit Card Pay is a mode of payment that allows you to transfer funds from any resident bank account.</p>
+                            </div>
 
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-12 col-lg-6 col-md-12 mt-4">
+                       <img src="{{ asset('assets/images/service-images/cashand-digital-suite.PNG')}}" alt="">
+                       <a data-target="#exampleModal" data-toggle="modal" class="MainNavText" id="MainNavHelp" 
+       href="#exampleModal"><img class="play-button" src="{{ asset('assets/images/service-images/cashand-play-btn.PNG')}}" alt=""></a>
+                       
+                    </div> -->
+                </div>
 
-
+            </div>
         </div>
     </div>
 </section>
-
 
 <!-- Services Section Five -->
 <section class="services-section-five gray-bg">
@@ -137,7 +165,7 @@
             </li>
         </ul>
 
-        
+
 
         <!-- Tab panes -->
         <div class="tab-content">
@@ -151,11 +179,11 @@
                             <div class="sec-title">
                                 <div class="sub-title">Get Rewards</div>
                                 <h2>Online Services</h2>
-                                <h4>Take your store online with BuyNearby</h4>
+                                <h4>Take your store online with Cashand</h4>
                             </div>
                             <div class="text">Single click process to take your store online within minutes. Upload your product catalog on the PayNearby App and an online store will be created for you on the consumer app, BuyNearby. Start attracting more customers and more business
 
-</div>
+                            </div>
                             <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
                         </div>
                     </div>

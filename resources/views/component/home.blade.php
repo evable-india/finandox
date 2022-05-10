@@ -43,8 +43,8 @@
                     <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-analysis"></span></div>
-                            <h2>Business Analysis</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                            <h2>Banking Services</h2>
+                            <div class="text">Cashand is committed to bridge the digital divide between urban & rural India by providing basic banking & financial services to everyone – securely and instantly. </div>
                             <div class="read-more"><a href="#">Read More</a></div>
                         </div>
                     </div>
@@ -52,8 +52,8 @@
                     <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box" style="background-image: url(assets/images/resource/image-1.jpg);">
                             <div class="icon-box"><span class="flaticon-tax"></span></div>
-                            <h2>Save Your Tax</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                            <h2>Payment Services</h2>
+                            <div class="text">The Cashand Money Payment Services allow to accept payments in different ways – including debit cards, and other generating a QR Code in an Android Smartphone. </div>
                             <div class="read-more"><a href="#">Read More</a></div>
                         </div>
                     </div>
@@ -61,8 +61,8 @@
                     <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-work-1"></span></div>
-                            <h2>Business Analysis</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </div>
+                            <h2>Devices & Other Services</h2>
+                            <div class="text">The different devices provided to our Cashand enables them to offer a host of services to their customers saving them time, money, and effort.</div>
                             <div class="read-more"><a href="#">Read More</a></div>
                         </div>
                     </div>
