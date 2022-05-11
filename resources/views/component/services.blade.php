@@ -1,585 +1,117 @@
 @extends('layouts.index')
 @section('content')
-     <!-- Services Section Three -->
-      <!-- Services Section Three -->
-      <!-- Page Banner Section -->
-    <section class="page-banner">
-        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-        <div class="bottom-rotten-curve alternate"></div>
+<!-- Services Section Three -->
+<!-- Services Section Three -->
+<!-- Page Banner Section -->
+<section class="page-banner">
+    <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+    <div class="bottom-rotten-curve alternate"></div>
 
-        <div class="auto-container">
-            <h1>What We Do</h1>
-            <ul class="bread-crumb clearfix">
-                <li><a href="{{ route('home')}}">Home</a></li>
-                <li class="active">Services</li>
-            </ul>
-        </div>
-
-    </section>
-    <!--End Banner Section -->
-    <section class="services-section-three style-two">
-
-<div class="auto-container">
-    <div class="row">
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
-                <h3>Business Management</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                <h3>Criminal Case</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-assets"></span><span class="round-shape"></span></div>
-                <h3>Property Planning</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
-                <h3>Transport & Export</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-money-1"></span><span class="round-shape"></span></div>
-                <h3>Saving Tax</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-        <!-- Services Block One -->
-        <div class="service-block-one col-lg-4">
-            <div class="inner-box">
-                <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
-                <h3>Growth Business</h3>
-                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-
-<!-- Case Studies -->
-<section class="cases-section style-two">
-<div class="sec-bg" style="background-image: url({{ asset('assets/images/background/image-14.jpg')}}"></div>        
-<!--case Tabs-->
-<div class="case-tabs">
     <div class="auto-container">
-        <div class="sec-title light text-center">
-            <div class="sub-title">Case Study</div>
-            <h2>See What Kind Of <br> Work We Have Done</h2>
-        </div>
-        <!--Tabs Header-->
-        <div class="tabs-header">
-            <ul class="case-tab-btns flex-box">
-                <li class="case-tab-btn active-btn" data-tab="#case-tab-1"><span>Financial</span></li>
-                <li class="case-tab-btn" data-tab="#case-tab-2"><span>Banking</span></li>
-                <li class="case-tab-btn" data-tab="#case-tab-3"><span>Insurance</span></li>
-                <li class="case-tab-btn" data-tab="#case-tab-4"><span>Family</span></li>
-                <li class="case-tab-btn" data-tab="#case-tab-5"><span>Business</span></li>
-            </ul>
-        </div>
-        <div class="case-tab-wrapper">
-            <!--Tabs Content-->  
-            <div class="case-tabs-content">
-                <!--case Tab / Active Tab-->
-                <div class="case-tab active-tab" id="case-tab-1">
-                    <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--case Tab-->
-                <div class="case-tab" id="case-tab-2">
-                    <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <h1>Services</h1>
+        <ul class="bread-crumb clearfix">
+            <li><a href="{{ route('home')}}">Home</a></li>
+            <li class="active">Services</li>
+        </ul>
+    </div>
 
-                <!--case Tab-->
-                <div class="case-tab" id="case-tab-3">
-                    <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+</section>
 
-                <!--case Tab-->
-                <div class="case-tab" id="case-tab-4">
-                    <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
+<!--End Banner Section -->
+<section class="services-section-three style-two">
+    <div class="sec-title text-center">
+        <div class="sub-title">Services</div>
+        <h2>Our Services</h2>
+    </div>
+    <div class="auto-container">
+        <div class="row">
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <img src="{{ asset('assets/images/service-images/cashand-visa-card.PNG')}}" alt=""><span class="round-shape"></span>
                     </div>
+                    <h3>Banking Card</h3>
+                    <div class="text">Banking cards offer consumers more security, convenience, and control than any other payment method.</div>
                 </div>
-
-                <!--case Tab-->
-                <div class="case-tab" id="case-tab-5">
-                    <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
-                        <!-- case Blokc One -->
-                        <div class="case-block-one">
-                            <div class="inner-box">
-                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
-                                <div class="overlay">
-                                    <div>
-                                        <h5>Business Consultancy</h5>
-                                        <h2>Brixer Donald Company Business</h2>
-                                        <div class="link-btn flex-box">
-                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
-                                        </div>
-                                    </div>                                          
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <!-- <span class="flaticon-money"></span><span class="round-shape"></span> -->
+                        <img src="{{ asset('assets/images/service-images/ussd.PNG')}}" alt=""><span class="round-shape"></span>
                     </div>
+                    <h3>USSD</h3>
+                    <div class="text">The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.</div>
+                </div>
+            </div>
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <img src="{{ asset('assets/images/service-images/aeps-logo.PNG')}}" alt=""><span class="round-shape"></span>
+                    </div>
+                    <h3>AEPS</h3>
+                    <div class="text">The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.</div>
+                </div>
+            </div>
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <img src="{{ asset('assets/images/service-images/upi.PNG')}}" alt=""><span class="round-shape"></span>
+                    </div>
+                    <h3>UPI</h3>
+                    <div class="text">The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.</div>
+                </div>
+            </div>
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <img src="{{ asset('assets/images/service-images/mobile-wallets.PNG')}}" alt=""><span class="round-shape"></span>
+                    </div>
+                    <h3>Mobile Wallets</h3>
+                    <div class="text">A mobile wallet is a way to carry cash in digital format.You can link your credit card or debit card information in mobile device</div>
+                </div>
+            </div>
+            <!-- Services Block One -->
+            <div class="service-block-one col-lg-4">
+                <div class="inner-box">
+                    <div class="icon">
+                        <img src="{{ asset('assets/images/service-images/micros-atm.PNG')}}" alt=""><span class="round-shape"></span>
+                    </div>
+                    <h3>Micro ATM</h3>
+                    <div class="text">Micro ATM meant to be a device that is used by a million Business Correspondents (BC) to deliver basic banking services.</div>
                 </div>
             </div>
         </div>
     </div>
-
-</div>
 </section>
+<!-- <div class="container">
+    <div class="row">
+        <h2 class="products">Products at a Glance</h2>
+    </div>
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-6">
+                <img src="{{ asset('assets/images/service-images/cashand-products-service.PNG')}}" alt="">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img src="{{ asset('assets/images/service-images/aeps-logo.PNG')}}" alt="">&nbsp;&nbsp;&nbsp;&nbsp; <span class="service_name">Flash as a Service</span>
+                <p class="mt-1">IMPS, AEPS, Aadharpay, Micro ATM, Insurance, Micro credit.
+                </p>
+                <p>IMPS, AEPS, Aadharpay, Micro ATM, Insurance, Micro credit.</p>
+                <h4>Flash as a Service</h4>
+                <p>IMPS, AEPS, Aadharpay, Micro ATM, Insurance, Micro credit.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <p>amit</p>
+            </div>
 
+        </div>
+    </div>
+</div>
+<br><br><br> -->
 @endsection

@@ -1,10 +1,17 @@
 @extends('layouts.index')
 @section('content')
 <!-- Page Banner Section -->
+
 <section class="page-banner">
         <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
         <div class="bottom-rotten-curve alternate"></div>
+        @if($message = Session::get('success'))
 
+          <div class="alert alert-success alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+          </div>
+          @endif
         <div class="auto-container">
             <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
@@ -67,11 +74,13 @@
                 </div>
                 <!-- Contact Form-->
                 <div class="contact-form">
-                    <form method="post" action="https://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
+                    <form id="contact_form" method="post" action="{{ route('contact_post')}}" id="contact-form">
+                        @csrf
+                        
                         <div class="row clearfix">                                    
                             <div class="col-md-6 form-group">
                                 <label for="name">Enter your name</label>
-                                <input type="text" name="username" id="name" placeholder="Enter name here......" required="">
+                                <input type="text" name="name" id="name" placeholder="Enter name here......" required="">
                                 <i class="fas fa-user"></i>
                             </div>
                             
@@ -80,6 +89,7 @@
                                 <input type="email" name="email" id="email" placeholder="Enter email here......" required="">
                                 <i class="fas fa-envelope"></i>
                             </div>
+                           
     
                             <div class="col-md-12 form-group">
                                 <label for="message">Enter your message</label>
@@ -97,3 +107,46 @@
         </div>
     </section>
 @endsection
+<script>
+$(document).ready(function(){
+
+ if($("#contact_form").length > 0)
+  {
+    $('#contact_form').validate({
+      rules:{
+        name : {
+          required : true,
+          maxlength : 50
+        },
+        email : {
+          required : true,
+          maxlength : 50, 
+          email : true
+        },
+        message : {
+          required : true,
+          minlength : 50,
+          maxlength : 500
+        }
+      },
+      messages : {
+        name : {
+          required : 'Enter Name Detail',
+          maxlength : 'Name should not be more than 50 character'
+        },
+        email : {
+          required : 'Enter Email Detail',
+          email : 'Enter Valid Email Detail',
+          maxlength : 'Email should not be more than 50 character'
+        },
+        message : {
+          required : 'Enter Message Detail',
+          minlength : 'Message Details must be minimum 50 character long',
+          maxlength : 'Message Details must be maximum 500 character long'
+        }
+      }
+    });
+  }
+
+});
+</script>

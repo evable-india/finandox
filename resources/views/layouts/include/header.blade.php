@@ -6,10 +6,9 @@
                     <div class="top-left">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}" alt=""></a></div>
+                            <div class="logo"><a href="{{ route('home')}}"><img class="ml-5" src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}"  alt="" style="height: 56px; width: 56px;"></a></div>
                         </div>
                     </div>
-
                     <div class="top-middile">
                         <div class="language">
                             <span>Language:</span>
@@ -26,12 +25,12 @@
                             <div class="single-info">
                                 <div class="icon-box"><i class="flaticon-call-1"></i></div>
                                 <div class="text">Phone Number</div>
-                                <h4><a href="tel:+98787687676">+91 8093454700, 01,09</a></h4>
+                                <h4><a href="tel:+98787687676">+987 876 876 76</a></h4>
                             </div>
                             <div class="single-info">
                                 <div class="icon-box"><i class="flaticon-email-4"></i></div>
                                 <div class="text">Email Address</div>
-                                <h4><a href="#">customercare@cashand.in</a></h4>
+                                <h4><a href="mailto:info@webmail.com">info@webmail.com</a></h4>
                             </div>
                         </div>
                     </div>
@@ -121,7 +120,8 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index-2.html" title=""><img src="{{ asset('assets/images/logo-cashand/sticky-logo.jpg')}}" alt="" title=""></a>
+                <!-- <a href="{{ route('home')}}"><img class="ml-5" src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}"  alt="" style="height: 56px; width: 56px;"></a> -->
+                    <a href="{{ route('home')}}" title=""><img class="ml-5" src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}" style="height: 56px; width: 56px;" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">

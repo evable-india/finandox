@@ -430,8 +430,8 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                     </div>
                     <div class="icon-box">
                         <div class="icon"><img src="{{ asset('assets/images/icons/icon-3.png')}}" alt=""></div>
-                        <h2>Capital Market</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                        <h2>Banking Services</h2>
+                        <div class="text">No working capital required. Offer uninterrupted banking services like cash withdrawal, money transfer, cash deposits, savings, insurance and loan from your shop. PayNearby is a PCI DSS and ISO 27001 certified company, which means transacting on the platform is very secure and has a time tested success ratio of more than 99.9%</div>
                     </div>
                     <div class="icon-box">
                         <div class="icon"><img src="{{ asset('assets/images/icons/icon-4.png')}}" alt=""></div>

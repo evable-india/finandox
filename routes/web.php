@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\GuestController;
+use App\http\Controllers\ContactusController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,7 +36,7 @@ Route::get('/shppingcart', 'App\Http\Controllers\GuestController@shopingcart')->
 Route::get('/online-payments', 'App\Http\Controllers\GuestController@checkout')->name('checkout');
 Route::get('/faq', 'App\Http\Controllers\GuestController@faq')->name('faq');
 Route::get('/errorpage', 'App\Http\Controllers\GuestController@errorpage')->name('error_page');
-Route::get('/contact', 'App\Http\Controllers\GuestController@contact')->name('contact');
+
 Route::get('/price', 'App\Http\Controllers\GuestController@price')->name('price');
 Route::get('/review', 'App\Http\Controllers\GuestController@review')->name('review');
 Route::get('/tearms', 'App\Http\Controllers\GuestController@tearms')->name('tearms');
@@ -59,3 +60,12 @@ Route::get('/terms-and-conditions', 'App\Http\Controllers\GuestController@term_c
 Route::get('/branch-banking', 'App\Http\Controllers\GuestController@branchless_banking')->name('branch-banking');
 Route::get('/digital-services', 'App\Http\Controllers\GuestController@digital_service')->name('digital-services');
 Route::get('/partner-program', 'App\Http\Controllers\GuestController@partner_program')->name('partner-program');
+
+// contact us route
+
+// Route::get('/contact', 'App\Http\Controllers\ContactController@contactform')->name('contact');
+// Route::post('/contact', 'App\Http\Controllers\ContactController@store')->name('contact_post');
+// Route::get('contact_us', 'ContactusController@index')->name('contact');
+Route::get('/contact_us', 'App\Http\Controllers\ContactusController@index')->name('contact');
+Route::post('/contact_us', 'App\Http\Controllers\ContactusController@store')->name('contact_post');
+

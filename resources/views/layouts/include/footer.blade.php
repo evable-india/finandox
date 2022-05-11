@@ -10,7 +10,8 @@
 						<div class="footer-widget logo-widget">
                         	<div class="widget-content">
                                 <div class="footer-logo">
-                                    <a href="index-2.html"><img class="lazy-image" src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}" data-src="{{ asset('assets/images/logo-cashand/cash-hand-logo.PNG')}}" alt="" /></a>
+                                    <img src="{{ asset('assets/images/logo-cashand/cashand-footer-logos.PNG')}}" alt="" title="">
+                                    
                                 </div>
                                 <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
                                 <ul class="social-links clearfix">
