@@ -439,8 +439,9 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="image-wrapper">
-                        <div class="image-one"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-6.jpg" alt=""></div>
-                        <div class="image-two"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-5.jpg" alt=""></div>
+                        <!-- <div class="image-one"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-6.jpg" alt=""></div>
+                        <div class="image-two"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-5.jpg" alt=""></div> -->
+                        <img src="{{ asset('assets/images/logo-cashand/cashand-arts.PNG')}}" style="height: 656px; width: 560px;" alt="">
                     </div>
                 </div>
             </div>

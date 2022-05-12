@@ -25,7 +25,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="our-team">
                     <div class="pic">
-                        <img src="image1.jpg">
+                        <img src="{{ asset('assets/images/cashand-team/sumit_kumar.PNG')}}">
                     </div>
                     <h3 class="title">Sumit Kumar</h3>
                     <span class="post">Android Developer</span>
