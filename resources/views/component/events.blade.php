@@ -16,7 +16,8 @@
     </section>
     <!--End Banner Section -->
     <!-- Team Details -->
-    <section class="team-details">
+    <h1 style="text-align: center; color: red;" class="mt-5 mb-5">Our Upcoming Events</h1>
+    <!-- <section class="team-details">
         <div class="auto-container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -40,7 +41,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section class="experience-section">
         <div class="auto-container">
             <div class="sec-title text-center">
@@ -107,18 +107,15 @@
             <div class="link-btn text-center"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Contact With Me</span></a></div>
         </div>
     </section>
-
-    <!-- Case Studies -->
-    <section class="cases-section">
-                
-        <!--case Tabs-->
+    <section class="cases-section">    
+       
         <div class="case-tabs">
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <div class="sub-title">Portfolio</div>
                     <h2>Our Works</h2>
                 </div>
-                <!--Tabs Header-->
+                
                 <div class="tabs-header">
                     <ul class="case-tab-btns flex-box">
                         <li class="case-tab-btn active-btn" data-tab="#case-tab-1"><span>Financial</span></li>
@@ -129,12 +126,12 @@
                     </ul>
                 </div>
                 <div class="case-tab-wrapper">
-                    <!--Tabs Content-->  
+                    
                     <div class="case-tabs-content">
-                        <!--case Tab / Active Tab-->
+                        
                         <div class="case-tab active-tab" id="case-tab-1">
                             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -149,7 +146,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -164,7 +161,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -179,7 +176,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -194,7 +191,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -209,7 +206,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -226,11 +223,10 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <!--case Tab-->
+                       
                         <div class="case-tab" id="case-tab-2">
                             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -245,7 +241,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -260,7 +256,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -275,7 +271,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -290,7 +286,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -305,7 +301,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -323,10 +319,10 @@
                             </div>
                         </div>
 
-                        <!--case Tab-->
+                      
                         <div class="case-tab" id="case-tab-3">
                             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -341,7 +337,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -356,7 +352,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -371,7 +367,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -386,7 +382,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -401,7 +397,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -419,10 +415,10 @@
                             </div>
                         </div>
 
-                        <!--case Tab-->
+                      
                         <div class="case-tab" id="case-tab-4">
                             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -437,7 +433,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -452,7 +448,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -467,7 +463,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -482,7 +478,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -497,7 +493,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                                
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -515,10 +511,10 @@
                             </div>
                         </div>
 
-                        <!--case Tab-->
+                       
                         <div class="case-tab" id="case-tab-5">
                             <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -533,7 +529,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -548,7 +544,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -563,7 +559,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
@@ -578,7 +574,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
@@ -593,7 +589,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- case Blokc One -->
+                               
                                 <div class="case-block-one">
                                     <div class="inner-box">
                                         <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
@@ -615,6 +611,6 @@
             </div>
         
         </div>
-    </section>
+    </section> -->
 
 @endsection

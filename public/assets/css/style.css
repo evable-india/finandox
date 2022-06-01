@@ -941,7 +941,7 @@ img {
 .main-menu .navigation {
 	position: relative;
 	margin: 0px;
-	margin-left: 30px;
+	margin-left: 120px;
 }
 
 .main-menu .navigation>li {
@@ -4079,7 +4079,7 @@ img.lazy-image.loaded {
 
 .why-chooseus-section {
 	position: relative;
-	padding: 120px 0 90px;
+	padding: 30px 0 90px;
 }
 
 /* Tab style one */
@@ -5592,7 +5592,7 @@ img.lazy-image.loaded {
 	position: relative;
 	background: #fff;
 	text-align: center;
-	padding: 60px 30px;
+	padding: 26px;
 	-webkit-transition: .5s ease;
 	-o-transition: .5s ease;
 	transition: .5s ease;
@@ -5661,7 +5661,7 @@ img.lazy-image.loaded {
 
 .services-section-three.style-two {
 	background: #fff;
-	padding: 100px 0 90px;
+	padding: 29px 0 90px;
 }
 
 .services-section-three.style-two .service-block-one .inner-box {
@@ -6372,7 +6372,7 @@ img.lazy-image.loaded {
 	position: relative;
 	color: #ffffff;
 	text-align: center;
-	padding: 270px 0px 110px;
+	padding: 210px 0px 110px;
 	background-color: #25283a;
 	z-index: 2;
 }
@@ -6486,9 +6486,7 @@ img.lazy-image.loaded {
 	max-width: 100%;
 	width: auto;
 	display: inline-block;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	opacity: .3;
+	opacity: .7;
 	transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;

@@ -15,17 +15,14 @@ class GuestController extends Controller
     {
         return view('component.about_us');
     }
-
     public function services()
     {
         return view('component.services');
     }
-
     public function partner_service(){
         return view('component.partner_service');
     }
 
-   
     public function portofolio()
     {
         return view('component.portofolio');
@@ -109,9 +106,6 @@ class GuestController extends Controller
     public function insurance(){
         return view('component.insurance');
     }
-    public function travel(){
-        return view('component.travel');
-    }
     public function utility_bill_payment(){
         return view('component.utility-bill-payment');
     }
@@ -168,10 +162,6 @@ class GuestController extends Controller
         return view('component.privacy_policy');
     }
 
-    public function term_condition(){
-        return view('component.term_condition');
-    }
-
     public function branchless_banking(){
         return view('component.branchless_banking');
     }
@@ -184,9 +174,10 @@ class GuestController extends Controller
         return view('component.partner_program');
     }
 
-   
 
-    
-    
+
+
+
+
 }
 

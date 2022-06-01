@@ -9,7 +9,7 @@
     <div class="auto-container">
         <h1>Payment Getway</h1>
         <ul class="bread-crumb clearfix">
-            <li><a href="index-2.html">Home</a></li>
+            <li><a href="{{ route('home')}}">Home</a></li>
             <li class="active">Payment Getway</li>
         </ul>
     </div>
@@ -18,212 +18,143 @@
 <!--End Banner Section -->
 <div class="container">
     <div class="row">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-title">Our Digital Payments</h2>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-3">
-                <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/cashand-visa-card.PNG')}}" alt="">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-title">Our Digital Payments</h2>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/aeps-services.png')}}" alt="">
 
-                    <h4 class="mt-4 mb-3">Banking Card</h4>
-                    <p>Banking cards offer consumers more security, convenience, and control than any other payment method.</p>
+                        <h4 class="mt-4 mb-3">AEPS</h4>
+                        <p>AePS is a bank led model which allows online interoperable financial inclusion transaction.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-3">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/aadhar-card-api.png')}}" alt="">
+
+                        <h4 class="mt-4 mb-3">Aadhar Pay</h4>
+                        <p>
+                            Aadhaar Pay allows merchants to collect payment through a customer's Aadhaar Number and Biometric Authentication. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-3">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/upi.png')}}" alt="">
+
+                        <h4 class="mt-4 mb-3">Money Transfer</h4>
+                        <p>The fast & trusted way to send money. Millions of people check our rates and send money with us every day. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/micro-atm.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Micro ATM</h4>
+                        <p>Cashand offers the Micro ATM solution which is fast, secure, and efficient, with various features</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/cms-services.png')}}" alt="">
+
+                        <h4 class="mt-4 mb-3">CMS</h4>
+                        <p>(CMS) is a software application that enables users to create, edit, collaborate on, publish and store digital content.<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/micro-loan.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Micro Loan</h4>
+                        <p>Micro Loans is a financial service aimed at providing small loans to low-income individuals and making them self reliant.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/recharge-api.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Recharge</h4>
+                        <p>Cashand offers a mobile recharge option through which you can make a prepaid mobile recharge, utility bill payments, metro recharge, etc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/insurance.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Insurance</h4>
+                        <p>Cashand, a leading life insurance company in India, offers a range of life insurance plans and policies to help you protect you and your family.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/lic-insurance.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Lic Payment</h4>
+                        <p>LIC's e Services · Facility provided to pay renewal premium due, loan-interest due and repayment of loan through:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/vps-payment.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">VPS</h4>
+                        <p>Virtual Payment System automatically charges a small portal courtesy fee when you make a payment to a VPS merchant. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/pancard-services.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Pan Card KYC</h4>
+                        <p>PAN Card is issued by the Income Tax Department with help from authorised district-level PAN agencies, Cashand Technology and Services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card border-0 shadow rounded-xs pt-4">
+                    <div class="card-body" style="border-bottom: 2px solid #f5af19;">
+                        <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
+                        <img src="{{ asset('assets/images/service-images/utility-bill-payment.png')}}" alt="">
+                        <h4 class="mt-4 mb-3">Utility Bill Payment</h4>
+                        <p>Micro ATM meant to be a device that is used by a million Business Correspondents (BC) to deliver basic banking services.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-3">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/ussd.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">USSD</h4>
-                    <p>
-The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-4">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/aadhar-card.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">AEPS</h4>
-                    <p>The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.
-
-</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-3">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/upi.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">UPI</h4>
-                    <p>The innovative payment service *99# works on Unstructured Supplementary Service Data (USSD) channel.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-4">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/mobile-wallets.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">Mobile Wallets</h4>
-                    <p>A mobile wallet is a way to carry cash in digital format.You can link your credit card or debit card information in mobile device to mobile wallet</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-4">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/pos.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">POINT OF SALE</h4>
-                    <p>
-POS
-A point of sale (PoS) is the place where sales are made. On a macro level, a PoS may be a mall, a market or a city. <br><br></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-4">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/mobile-banking.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">Mobile Banking</h4>
-                    <p>Mobile banking is the act of making financial transactions on a mobile device (cell phone, tablet, etc. <br><br></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-4">
-            <div class="card border-0 shadow rounded-xs pt-4">
-            <div class="card-body" style="border-bottom: 2px solid #f5af19;">
-                    <i class="icon-lg icon-primary icon-bg-primary icon-bg-circle"></i>
-                    <img src="{{ asset('assets/images/service-images/micros-atm.PNG')}}" alt="">
-
-                    <h4 class="mt-4 mb-3">Micro ATM</h4>
-                    <p>Micro ATM meant to be a device that is used by a million Business Correspondents (BC) to deliver basic banking services.</p>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 </div>
-<!-- <section class="careers-section">
-        <div class="auto-container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Banking Cards</div><br>
-                        <img class="ml-5" src="{{ asset('assets/images/service-images/bank-card.PNG')}}" style="height: 100px;" width="100;" alt="">
-                        <h3>Banking Cards</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>UX Designer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>UX Designer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>Senior Consultant</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>UI Designer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>UX Designer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>Content Writer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>Graphic Designer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 career-block">
-                    <div class="inner-box">
-                        <div class="time">Full Time</div>
-                        <h3>Software Engineer</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                        <ul class="info">
-                            <li><strong>Location:</strong> Texus, USA</li>
-                            <li><strong>Sallary:</strong> $2000</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
 
 <!-- Services Section Five -->
 <section class="services-section-five gray-bg">
@@ -233,7 +164,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link active" id="tab-one-area" data-toggle="tab" href="#tab-one" role="tab" aria-controls="tab-one" aria-selected="true">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-team"></span></div>
-                        <h5>Banking Card</h5>
+                        <h5>Aadhar Banking</h5>
                     </div>
                 </a>
             </li>
@@ -241,7 +172,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link" id="tab-two-area" data-toggle="tab" href="#tab-two" role="tab" aria-controls="tab-two" aria-selected="false">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-money"></span></div>
-                        <h5>USSD</h5>
+                        <h5>ATM Banking</h5>
                     </div>
                 </a>
             </li>
@@ -249,7 +180,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link" id="tab-three-area" data-toggle="tab" href="#tab-three" role="tab" aria-controls="tab-three" aria-selected="false">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-assets"></span></div>
-                        <h5>AEPS</h5>
+                        <h5>Utility BillPayment</h5>
                     </div>
                 </a>
             </li>
@@ -257,7 +188,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link" id="tab-four-area" data-toggle="tab" href="#tab-four" role="tab" aria-controls="tab-four" aria-selected="false">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-world"></span></div>
-                        <h5>UPI</h5>
+                        <h5>Money Transfer</h5>
                     </div>
                 </a>
             </li>
@@ -265,7 +196,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link" id="tab-five-area" data-toggle="tab" href="#tab-five" role="tab" aria-controls="tab-five" aria-selected="false">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-money-1"></span></div>
-                        <h5>Mobile Wallets</h5>
+                        <h5>Insurance</h5>
                     </div>
                 </a>
             </li>
@@ -273,7 +204,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
                 <a class="nav-link" id="tab-six-area" data-toggle="tab" href="#tab-six" role="tab" aria-controls="tab-six" aria-selected="false">
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-notebook"></span></div>
-                        <h5>Micro ATM</h5>
+                        <h5>Loan</h5>
                     </div>
                 </a>
             </li>
@@ -388,66 +319,7 @@ A point of sale (PoS) is the place where sales are made. On a macro level, a PoS
 </section>
 
 <!-- Services Section Two -->
-<section class="services-section-two">
-    <div class="auto-container">
-        <div class="wrapper-box">
-            <div class="left-column" style="background-image: url(assets/images/background/image-8.jpg);">
-                <div class="sec-title light">
-                    <div class="sub-title">Get In Touch</div>
-                    <h2>Get Us Here Or <br> Share Details</h2>
-                </div>
-                <!-- Contact Form-->
-                <div class="contact-form">
-                    <form method="post" action="https://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                        <div class="row clearfix">
-                            <div class="col-md-12 form-group">
-                                <input type="text" name="username" placeholder="Enter name here......" required="">
-                                <i class="fas fa-user"></i>
-                            </div>
 
-                            <div class="col-md-12 form-group">
-                                <input type="email" name="email" placeholder="Enter email here......" required="">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <textarea name="message" placeholder="Enter message here......"></textarea>
-                                <i class="fas fa-edit"></i>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="right-column">
-                <div class="services-content">
-                    <div class="sec-title">
-                        <div class="sub-title">Our Services</div>
-                        <h2>What Actually We <br>Do Here.</h2>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src="{{ asset('assets/images/icons/icon-3.png')}}" alt=""></div>
-                        <h2>Banking Services</h2>
-                        <div class="text">No working capital required. Offer uninterrupted banking services like cash withdrawal, money transfer, cash deposits, savings, insurance and loan from your shop. PayNearby is a PCI DSS and ISO 27001 certified company, which means transacting on the platform is very secure and has a time tested success ratio of more than 99.9%</div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src="{{ asset('assets/images/icons/icon-4.png')}}" alt=""></div>
-                        <h2>Insurance & Planning</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src="{{ asset('assets/images/icons/icon-5.png')}}" alt=""></div>
-                        <h2>Financial Strategy</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Sponsors Section -->
 <section class="sponsors-section">

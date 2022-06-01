@@ -30,7 +30,7 @@
                 </p>
             </div>
             <div class="col-sm-12 col-lg-4 col-md-12">
-                <img src="{{ asset('assets/images/service-images/partnership-benefits.PNG')}}" alt="">
+                <img src="{{ asset('assets/images/service-images/features-of-aadhar-card.PNG')}}" alt="">
             </div>
             <div class="col-sm-12 col-lg-4 col-md-12">
                 <img src="{{ asset('assets/images/service-images/on-time-boarding.PNG')}}" alt=""><br>

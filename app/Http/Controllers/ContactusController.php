@@ -29,6 +29,7 @@ class ContactusController extends Controller
         });
         
         Contactus::create($request->all());
-        return redirect()->back()->with('success', 'Email has been sent successfully...');
+        return redirect()->back()->with('success', 'Email has been sent successfully.');
+        
     }
 }

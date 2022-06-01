@@ -2,8 +2,8 @@
 @section('content')
  <!-- Page Banner Section -->
  <section class="page-banner">
-        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-        <div class="bottom-rotten-curve alternate"></div>
+        <!-- <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+        <div class="bottom-rotten-curve alternate"></div> -->
 
         <div class="auto-container">
             <h1>Product Showcase</h1>
@@ -43,7 +43,7 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="single-product-item text-center wow fadeInUp" data-wow-delay="300ms">
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/shop/1.jpg')}}" alt="Awesome Product Image">
+                                        <img src="{{ asset('assets/images/shop/wise-easy.png')}}" alt="Awesome Product Image">
                                         <div class="price">$250</div>
                                         <div class="overlay-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Add To Cart</span></a></div>
                                     </div>

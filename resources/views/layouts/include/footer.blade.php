@@ -13,12 +13,13 @@
                                     <img src="{{ asset('assets/images/logo-cashand/cashand-footer-logos.PNG')}}" alt="" title="">
                                     
                                 </div>
-                                <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
+                                <div class="text">Create a progressive society, where everyone has easy access to financial services, by building the largest agent banking network in the country.</div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="https://www.facebook.com/cashand.in"><span class="fab fa-facebook-f mt-3"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/cashand-yours-digitally-aa22a0212/"><span class="fab fa-linkedin-in mt-3"></span></a></li>
+                                    <li><a href="https://twitter.com/EvableI"><span class="fab fa-twitter mt-3"></span></a></li>
+                                    
+                                    <li><a href="https://www.instagram.com/cashand_in_/"><span class="fab fa-instagram mt-3"></span></a></li>
                                     
                                 </ul>
                             </div>
@@ -38,7 +39,6 @@
                                             <li><a href="{{ route('services')}}">Services</a></li>
                                             <li><a href="{{ route('utility-bill-payment')}}">Utiliy Payment</a></li>
                                             <li><a href="{{ route('insurance')}}">Insurance</a></li>
-                                            <li><a href="{{ route('travel')}}">Travel</a></li>
                                             <li><a href="{{ route('partner-service')}}">Partner Service</a></li>
                                         </ul>
                                     </div>
@@ -46,7 +46,7 @@
                                         <ul>
                                             <li><a href="{{ route('send-money')}}">Send Money</a></li>
                                             <li><a href="{{ route('recieve-money')}}">Receive Money</a></li>
-                                            <li><a href="{{ route('shop')}}">Shopping</a></li>
+                                            <!-- <li><a href="{{ route('shop')}}">Shopping</a></li> -->
                                             <li><a href="{{ route('checkout')}}">Online Payment</a></li>
                                             <li><a href="#">Pay a friend</a></li>
                                             <li><a href="#">Pay a Bill</a></li>
@@ -68,7 +68,7 @@
                                             <li><a href="{{ route('live-chat')}}">Live Chat</a></li>
                                             <li><a href="{{ route('notification')}}">Notification</a></li>
                                             <li><a href="{{ route('privacy-policy')}}">Privacy</a></li>
-                                            <li><a href="{{ route('terms-and-conditions')}}">Term & Condition</a></li>
+                                            <li><a href="{{ route('tearms')}}">Term & Condition</a></li>
                                             <li><a href="{{ route('contact')}}">Contact us</a></li>
                                         </ul>
                                     </div>
